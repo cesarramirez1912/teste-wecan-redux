@@ -1,0 +1,159 @@
+.container {
+  max-width: 100%;
+  height: 100vh;
+}
+
+.container .row {
+  height: 100%;
+}
+
+.esquerdo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 16px #00000029;
+  opacity: 1;
+  padding: 20px;
+  justify-content: center;
+}
+
+.logo {
+  width: 190px;
+  height: 57px;
+  opacity: 1;
+  margin-bottom: 26px;
+}
+
+.acessar {
+  text-align: center;
+  font: Bold 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 30px;
+}
+
+.fundo-input {
+  width: 100%;
+  max-width: 378px;
+  height: 40px;
+  background-color: #bebebe;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cccccc;
+  border-radius: 35px;
+  opacity: 1;
+  justify-content: center;
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+.fundo-input input {
+  width: 100%;
+  margin-left: 8px;
+  border: none;
+  opacity: 1;
+  text-align: left;
+  font: Medium 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #444444;
+  opacity: 1;
+}
+
+.btn-entrar {
+  width: 100%;
+  text-align: center;
+  font: SemiBold 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #f5f5f5;
+  text-transform: uppercase;
+  opacity: 1;
+  background: #000000 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 35px;
+  opacity: 1;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.esq-senha {
+  text-align: left;
+  font: Medium 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  height: 18px;
+  margin-bottom: 20px;
+}
+
+.linha {
+  width: 100%;
+  height: 1px;
+  background-color: #dcdcdc;
+  margin-bottom: 10px;
+}
+.esta-dif {
+  text-align: center;
+  font: Bold 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 16px;
+}
+
+.btn-ajuda {
+  width: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 0;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 35px;
+  opacity: 1;
+  text-align: center;
+  font: SemiBold 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.direita {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(308deg, #805ae887 0%, #24047dd6 100%),
+    url("../../Images/iStock-875254956-trade-web-ordering.png");
+  padding: 0;
+}
+
+.filtro {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+}
+.txt-ben {
+  max-width: 460px;
+  text-align: left;
+  font: 68px Acorde;
+  font-weight: 500;
+  color: #ffffff;
+}
+.txt-lorem {
+  max-width: 460px;
+  text-align: left;
+  font: 18px Adobe Arabic;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.href-botao {
+  width: 100%;
+}
